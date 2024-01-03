@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(40deg, gray, gold);
+}
+
+.first {
+    height: 63px;
+    width: 500px;
+    border: 2px solid red;
+    border-radius: 20px;
+    outline: none;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    /* background: linear-gradient(20deg, black, gray); */
+    background-color: transparent;
+    color: azure;
+    font-size: 26px;
+    border: none;
+}
+
