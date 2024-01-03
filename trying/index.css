@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rubik+Doodle+Triangles&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: linear-gradient(40deg, gray, gold);
+    background: linear-gradient(40deg, gray, black);
 }
 
 .first {
@@ -21,5 +23,33 @@ body {
     color: azure;
     font-size: 26px;
     border: none;
+}
+
+#f-img {
+    margin-left: 100px;
+    
+}
+
+.f-p {
+    width: 740px;
+    height: 100px;
+    border: 1px solid #eee;
+    margin-top: 10px;
+    background: black;
+    color:white;
+}
+
+.f-p h3 {
+    font-size: 30px;
+    color: yellow;
+    font-family: oswald;
+    text-align: center;
+    border-bottom: 1px solid greenyellow;
+}
+
+.f-p p {
+    font-size: 12px;
+    color: aliceblue;
+    font-family: oswald;
 }
 
